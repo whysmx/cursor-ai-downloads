@@ -16,18 +16,17 @@ V8: 12.4.254.20-electron.0
 OS: Linux x64 5.13.0-35-generic
 ```
 
-https://downloader.cursor.sh/mac/installer/universal
-https://downloader.cursor.sh/windows/nsis/x64
-https://downloader.cursor.sh/linux/appImage/x64
+Mac https://downloader.cursor.sh/mac/installer/universal  
+Windows x64 https://downloader.cursor.sh/windows/nsis/x64  
+Linux x64 https://downloader.cursor.sh/linux/appImage/x64  
 
 ## 0.42.5
 ```
-
 ```
 
-Mac https://downloader.cursor.sh/builds/24111460bf2loz1/mac/installer/universal
-Windows x64 https://downloader.cursor.sh/builds/24111460bf2loz1/windows/nsis/x64
-Linux x64 https://downloader.cursor.sh/builds/24111460bf2loz1/linux/applmage/x64
+Mac https://downloader.cursor.sh/builds/24111460bf2loz1/mac/installer/universal  
+Windows x64 https://downloader.cursor.sh/builds/24111460bf2loz1/windows/nsis/x64  
+Linux x64 https://downloader.cursor.sh/builds/24111460bf2loz1/linux/applmage/x64  
 
 ## 0.42.4
 ```
