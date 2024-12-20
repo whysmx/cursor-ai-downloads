@@ -19,9 +19,9 @@ V8: 12.4.254.20-electron.0
 OS: Darwin arm64 23.5.0
 ```
 
-Mac https://downloader.cursor.sh/mac/installer/universal
-Windows x64 https://downloader.cursor.sh/windows/nsis/x64
-Linux x64 https://downloader.cursor.sh/linux/appImage/x64
+Mac https://downloader.cursor.sh/mac/installer/universal  
+Windows x64 https://downloader.cursor.sh/windows/nsis/x64  
+Linux x64 https://downloader.cursor.sh/linux/appImage/x64  
 
 ## 0.43.6
 
