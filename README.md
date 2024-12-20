@@ -23,6 +23,10 @@ Mac https://downloader.cursor.sh/mac/installer/universal
 Windows x64 https://downloader.cursor.sh/windows/nsis/x64  
 Linux x64 https://downloader.cursor.sh/linux/appImage/x64  
 
+### New Feature
+![image](https://github.com/user-attachments/assets/df78a981-4aab-459f-8cb9-d3863f40981b)
+
+
 ## 0.43.6
 
 ```
