@@ -5,7 +5,25 @@ The reason for maintaining a list of versions is that some older versions offer 
 
 🎯 [Cursor AI IDE Changelog](https://www.cursor.com/changelog)
 
-## Latest Version (0.44.5)
+## Latest Version (0.44.8)
+```
+Version: 0.44.8
+VSCode Version: 1.93.1
+Commit: f3b5a63019e4e2283033b4db987a35f8413c7570
+Date: 2024-12-22T05:48:08.427Z
+Electron: 30.5.1
+Chromium: 124.0.6367.243
+Node.js: 20.16.0
+V8: 12.4.254.20-electron.0
+OS: Darwin arm64 23.5.0
+```
+
+Mac https://downloader.cursor.sh/mac/installer/universal  
+Windows x64 https://downloader.cursor.sh/windows/nsis/x64  
+Linux x64 https://downloader.cursor.sh/linux/appImage/x64  
+
+
+## 0.44.5
 
 ```
 Version: 0.44.5
