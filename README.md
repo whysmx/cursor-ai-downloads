@@ -16,6 +16,7 @@ Linux x64 https://downloader.cursor.sh/linux/appImage/x64
 
 | Version | Date | Mac Installer | Windows X64 Installer | Linux X64 Installer |
 | --- | --- | --- | --- | --- |
+| 0.45.12 | 2025-02-19 | [Link](https://downloader.cursor.sh/builds/2502180s4ios0dk/mac/installer/universal) | [Link](https://downloader.cursor.sh/builds/2502180s4ios0dk/windows/nsis/x64) | [Link](https://downloader.cursor.sh/builds/2502180s4ios0dk/linux/appImage/x64) |
 | 0.45.11 | 2025-02-08 | [Link](https://downloader.cursor.sh/builds/250207y6nbaw5qc/mac/installer/universal) | [Link](https://downloader.cursor.sh/builds/250207y6nbaw5qc/windows/nsis/x64) | [Link](https://downloader.cursor.sh/builds/250207y6nbaw5qc/linux/appImage/x64) |
 | 0.45.10 | 2025-02-06 | [Link](https://downloader.cursor.sh/builds/250205buadkzpea/mac/installer/universal) | [Link](https://downloader.cursor.sh/builds/250205buadkzpea/windows/nsis/x64) | [Link](https://downloader.cursor.sh/builds/250205buadkzpea/linux/appImage/x64) |
 | 0.45.9 | 2025-02-04 | [Link](https://downloader.cursor.sh/builds/250202tgstl42dt/mac/installer/universal) | [Link](https://downloader.cursor.sh/builds/250202tgstl42dt/windows/nsis/x64) | [Link](https://downloader.cursor.sh/builds/250202tgstl42dt/linux/appImage/x64) |
