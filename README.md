@@ -12,6 +12,11 @@ Mac https://downloader.cursor.sh/mac/installer/universal
 Windows x64 https://downloader.cursor.sh/windows/nsis/x64  
 Linux x64 https://downloader.cursor.sh/linux/appImage/x64  
 
+> Deepseek models:  
+> Deepseek R1 and Deepseek v3 are supported in 0.45 and 0.44.  
+> You can enable them in Settings > Models. We self-host these models in the US.
+
+
 ## Download Links History
 
 | Version | Date | Mac Installer | Windows X64 Installer | Linux X64 Installer |
