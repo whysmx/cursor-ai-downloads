@@ -16,6 +16,28 @@ Linux x64 https://downloader.cursor.sh/linux/appImage/x64
 > Deepseek R1 and Deepseek v3 are supported in 0.45 and 0.44.  
 > You can enable them in Settings > Models. We self-host these models in the US.
 
+### About Version 0.46.0
+
+> Some developers have already received update 0.46, though most haven't, so keep waiting.  
+> For an early look at the changes, check out the information gathered below.  
+> If we get a download link for the latest 0.46, we'll update it in as well. Stay tuned.
+
+#### 0.46.0 Changelog (unofficial)
+
+- New combined Chat/Composer
+- Shared context between Chat & Composer (Start in Ask / move to Agent)
+- Deepseek R1 thinking UI
+- MCP Server Config file .cursor/mcp.json
+- MCP YOLO (All or nothing it seems)
+- MCP Resources
+- New default theme
+- New settings layout (Rules & MCP)
+- New Context Picker
+- Add git commits to context
+- Add terminals to context
+- Smaller menu icons
+- Agent compatibility check
+- Visual indicator to show loaded rules
 
 ## Download Links History
 
