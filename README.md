@@ -117,6 +117,7 @@ should work now.
 
 > All links published by the Cursor team. no changes have been made.
 
+
 | Version | Date | Mac Installer | Windows Installer | Linux Installer |
 | --- | --- | --- | --- | --- |
 | 0.46.3 | 2025-02-25 | [drawin-universal](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/darwin/universal/Cursor-darwin-universal.dmg) <br>[drawin-x64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/darwin/x64/Cursor-darwin-x64.dmg)<br>[drawin-arm64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/darwin/arm64/Cursor-darwin-arm64.dmg) | [win32-x64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/win32/x64/user-setup/CursorUserSetup-x64-0.46.3.exe)<br>[win32-arm64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/win32/arm64/user-setup/CursorUserSetup-arm64-0.46.3.exe) | Not Ready |
@@ -141,7 +142,35 @@ should work now.
 | 0.42.4 | - | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/mac/installer/universal) | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/windows/nsis/x64) | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/linux/appImage/x64) |
 | 0.42.3 | - | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/mac/installer/universal) | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/windows/nsis/x64) | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/linux/appImage/x64) |
 
+---
+
 ## Star History
 
 [![Stargazers over time](https://starchart.cc/oslook/cursor-ai-downloads.svg)](https://starchart.cc/oslook/cursor-ai-downloads)
 
+---
+
+## 📜 License
+
+This script is licensed under the [MIT License](./LICENSE). Feel free to use, modify, and distribute it as needed.
+
+---
+
+<h2 id="support-this-project" align="center">☕ Support This Project</h2>
+
+<p align="center">
+  <strong>
+      If this content has been helpful, consider supporting my work and keeping the magic alive!<br/>
+      Your contributions help maintain and improve tools like this one. 🌟
+   </strong>
+</p>
+
+<p align="center">
+   <a href="https://www.buymeacoffee.com/oslook" target="_blank">
+      <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=oslook&button_colour=ffda33&font_colour=000000&font_family=Bree&outline_colour=000000&coffee_colour=FFDD00" alt="Buy Me a Coffee"/>
+   </a>
+</p>
+
+<p align="center">
+  <strong><em>Thank you for your kindness and support! 💜</em></strong>
+</p>
