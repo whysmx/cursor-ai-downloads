@@ -71,3 +71,8 @@ should work now.
 | 0.42.5 | - | [Link](https://downloader.cursor.sh/builds/24111460bf2loz1/mac/installer/universal) | [Link](https://downloader.cursor.sh/builds/24111460bf2loz1/windows/nsis/x64) | [Link](https://downloader.cursor.sh/builds/24111460bf2loz1/linux/appImage/x64) |
 | 0.42.4 | - | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/mac/installer/universal) | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/windows/nsis/x64) | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/linux/appImage/x64) |
 | 0.42.3 | - | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/mac/installer/universal) | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/windows/nsis/x64) | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/linux/appImage/x64) |
+
+
+
+[![Stargazers over time](https://starchart.cc/oslook/cursor-ai-downloads.svg)](https://starchart.cc/oslook/cursor-ai-downloads)
+
