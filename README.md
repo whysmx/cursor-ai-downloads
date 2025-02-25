@@ -92,6 +92,8 @@ should work now.
 
 ## Download Links History
 
+> All links published by the Cursor team. no changes have been made.
+
 | Version | Date | Mac Installer | Windows Installer | Linux Installer |
 | --- | --- | --- | --- | --- |
 | 0.46.3 | 2025-02-25 | [drawin-universal](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/darwin/universal/Cursor-darwin-universal.dmg) <br>[drawin-x64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/darwin/x64/Cursor-darwin-x64.dmg)<br>[drawin-arm64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/darwin/arm64/Cursor-darwin-arm64.dmg) | [win32-x64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/win32/x64/user-setup/CursorUserSetup-x64-0.46.3.exe)<br>[win32-arm64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/win32/arm64/user-setup/CursorUserSetup-arm64-0.46.3.exe) | Not Ready |
