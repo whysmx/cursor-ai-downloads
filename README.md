@@ -1,7 +1,7 @@
-# Cursor AI Version Download Links 
+# Cursor AI Version Download Links
 
 
-The reason for maintaining a list of versions is that some older versions offer a better user experience, allowing users the freedom to choose. Since Cursor AI automatically upgrades to the latest version, we provide download links for the older versions.
+The reason for maintaining a list of versions is that some older versions offer a better user experience, allowing users the freedom to choose. Since Cursor AI automatically upgrades to the latest version, we provide official download links for the older versions.
 
 🎯 [Cursor AI IDE Changelog](https://www.cursor.com/changelog)
 
@@ -41,8 +41,9 @@ Linux x64 https://downloader.cursor.sh/linux/appImage/x64
 
 ## Download Links History
 
-| Version | Date | Mac Installer | Windows X64 Installer | Linux X64 Installer |
+| Version | Date | Mac Installer | Windows Installer | Linux Installer |
 | --- | --- | --- | --- | --- |
+| 0.45.15 | 2025-02-20 | [drawin-universal](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/73dd83bb6f8e3a3704ad8078a8e455ac6d4260d1/darwin/universal/Cursor-darwin-universal.dmg) [drawin-x64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/73dd83bb6f8e3a3704ad8078a8e455ac6d4260d1/darwin/x64/Cursor-darwin-x64.dmg) [drawin-arm64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/73dd83bb6f8e3a3704ad8078a8e455ac6d4260d1/darwin/arm64/Cursor-darwin-arm64.dmg) | [win32-x64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/73dd83bb6f8e3a3704ad8078a8e455ac6d4260d1/win32/x64/user-setup/CursorUserSetup-x64-0.45.15.exe) [win32-arm64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/73dd83bb6f8e3a3704ad8078a8e455ac6d4260d1/win32/arm64/user-setup/CursorUserSetup-arm64-0.45.15.exe) | [0.45.44](https://downloader.cursor.sh/builds/250219jnihavxsz/linux/appImage/x64) |
 | 0.45.14 | 2025-02-20 | [Link](https://downloader.cursor.sh/builds/250219jnihavxsz/mac/installer/universal) | [Link](https://downloader.cursor.sh/builds/250219jnihavxsz/windows/nsis/x64) | [Link](https://downloader.cursor.sh/builds/250219jnihavxsz/linux/appImage/x64) |
 | 0.45.12 | 2025-02-19 | [Link](https://downloader.cursor.sh/builds/2502180s4ios0dk/mac/installer/universal) | [Link](https://downloader.cursor.sh/builds/2502180s4ios0dk/windows/nsis/x64) | [Link](https://downloader.cursor.sh/builds/2502180s4ios0dk/linux/appImage/x64) |
 | 0.45.11 | 2025-02-08 | [Link](https://downloader.cursor.sh/builds/250207y6nbaw5qc/mac/installer/universal) | [Link](https://downloader.cursor.sh/builds/250207y6nbaw5qc/windows/nsis/x64) | [Link](https://downloader.cursor.sh/builds/250207y6nbaw5qc/linux/appImage/x64) |
