@@ -3,7 +3,7 @@
 
 The reason for maintaining a list of versions is that some older versions offer a better user experience, allowing users the freedom to choose. Since Cursor AI automatically upgrades to the latest version, we provide official download links for the older versions.
 
-🎯 [Cursor AI IDE Changelog](https://www.cursor.com/changelog)
+🎯 **[Changelog from Cursor AI IDE(Official Link)](https://www.cursor.com/changelog)**
 
 
 ## Latest Version
