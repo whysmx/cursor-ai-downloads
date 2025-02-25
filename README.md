@@ -23,6 +23,19 @@
 
 ---
 
+## 📖 Table of Contents
+
+- [❓ What is Cursor?](#what-is-cursor)
+- [📋 Why list the download links?](#why-list-the-download-links)
+- [🚀 Cursor Changelog](#cursor-changelog)
+- [🆕 Latest Version Download Link](#latest-version-download-link)
+- [⏬ All Versions Download Links](#all-version-download-links)
+- [⭐ This Project's Star History](#star-history)
+- [📜 License](#-license)
+- [☕ Support This Project](#support-this-project)
+
+---
+
 ## What is Cursor?
 
 Cursor is **[The AI Code Editor](https://cursor.com)**, Built to make you extraordinarily productive, Cursor is the best way to code with AI.
@@ -31,22 +44,12 @@ Cursor is **[The AI Code Editor](https://cursor.com)**, Built to make you extrao
 
 The reason for maintaining a list of versions is that some older versions offer a better user experience, allowing users the freedom to choose. Since Cursor AI automatically upgrades to the latest version, we provide official download links for the older versions.
 
-## 🎯 [Changelog from Cursor AI IDE(Official Link)](https://www.cursor.com/changelog)
+## Cursor Changelog
+
+[(Official Link)](https://www.cursor.com/changelog)
 
 
-## Latest Version
-
-Cursor AI Download for Mac
-- https://downloader.cursor.sh/mac/installer/universal
-  
-Cursor AI Download for Windows x64
-- https://downloader.cursor.sh/windows/nsis/x64
-
-Cursor AI Download for Linux x64
-- https://downloader.cursor.sh/linux/appImage/x64  
-
-
-## Deepseek models supported
+### Deepseek models supported
 
 > Deepseek R1 and Deepseek v3 are supported in 0.45 and 0.44.  
 > You can enable them in Settings > Models. We self-host these models in the US.
@@ -92,9 +95,6 @@ Cursor AI Download for Linux x64
 
 </details>
 
-
-
-
 <details>
 <summary>
 
@@ -111,9 +111,19 @@ should work now.
 </details>
 
 
+## Latest Version Download Link
+
+Cursor AI Download for Mac
+- https://downloader.cursor.sh/mac/installer/universal
+  
+Cursor AI Download for Windows x64
+- https://downloader.cursor.sh/windows/nsis/x64
+
+Cursor AI Download for Linux x64
+- https://downloader.cursor.sh/linux/appImage/x64  
 
 
-## Download Links History
+## All Version Download Links
 
 > All links published by the Cursor team. no changes have been made.
 
