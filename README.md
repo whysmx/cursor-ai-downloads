@@ -1,4 +1,27 @@
-# Cursor AI Version Download Links
+<p align="right">
+   <a href="https://www.buymeacoffee.com/oslook" target="_blank">
+      <img src="https://img.buymeacoffee.com/button-api/?text=buy me a coffee&emoji=☕&slug=oslook&button_colour=ffda33&font_colour=000000&font_family=Bree&outline_colour=000000&coffee_colour=FFDD00" width="160" alt="Buy Me a Coffee"/>
+   </a>
+</p>
+
+<p align="center">
+  <img src="https://mintlify.s3-us-west-1.amazonaws.com/cursor/images/logo/app-logo.svg" alt="Cursor Icon" width="100"/>
+</p>
+
+<h1 align="center">Cursor AI Version Download Links</h1>
+
+<p align="center"><strong>The most comprehensive download link for Cursor versions on GitHub, making it easy for you to update and choose any version. 🚀</strong></p>
+
+
+<p align="center">
+  <a href="https://buymeacoffee.com/oslook" target="_blank"><img alt="Buy Me a Coffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDA33"></a>
+  <img alt="Linux-Installer" src="https://img.shields.io/badge/Linux-Installer-E95620">
+  <img alt="MacOS-Installer" src="https://img.shields.io/badge/MacOS-Installer-E95620">
+  <img alt="Windows-Installer" src="https://img.shields.io/badge/Windows-Installer-E95620">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-blueviolet">
+</p>
+
+---
 
 ## What is Cursor?
 
