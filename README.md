@@ -16,13 +16,27 @@ Linux x64 https://downloader.cursor.sh/linux/appImage/x64
 > Deepseek R1 and Deepseek v3 are supported in 0.45 and 0.44.  
 > You can enable them in Settings > Models. We self-host these models in the US.
 
+
+<details>
+
+<summary>
+
 ### About Version 0.46.0
+
+</summary>
 
 > Some developers have already received update 0.46, though most haven't, so keep waiting.  
 > For an early look at the changes, check out the information gathered below.  
 > If we get a download link for the latest 0.46, we'll update it in as well. Stay tuned.
 
+
+<details>
+
+<summary>
+
 #### 0.46.0 Changelog (unofficial)
+
+</summary>
 
 - New combined Chat/Composer
 - Shared context between Chat & Composer (Start in Ask / move to Agent)
@@ -39,12 +53,29 @@ Linux x64 https://downloader.cursor.sh/linux/appImage/x64
 - Agent compatibility check
 - Visual indicator to show loaded rules
 
+</details>
+
+</details>
+
+
+
+
+<details>
+<summary>
+
 ### Integrate Claude 3.7 Sonnet into Cursor 0.46.0
+
+</summary>
+
 try to add
 - claude-3.7-sonnet-thinking
 - claude-3-7-sonnet-20250219
   
 should work now.
+
+</details>
+
+
 
 
 ## Download Links History
