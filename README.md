@@ -1,18 +1,30 @@
 # Cursor AI Version Download Links
 
+## What is Cursor?
+
+Cursor is **[The AI Code Editor](https://cursor.com)**, Built to make you extraordinarily productive, Cursor is the best way to code with AI.
+
+## Why list the download links?
 
 The reason for maintaining a list of versions is that some older versions offer a better user experience, allowing users the freedom to choose. Since Cursor AI automatically upgrades to the latest version, we provide official download links for the older versions.
 
-🎯 **[Changelog from Cursor AI IDE(Official Link)](https://www.cursor.com/changelog)**
+## 🎯 [Changelog from Cursor AI IDE(Official Link)](https://www.cursor.com/changelog)
 
 
 ## Latest Version
 
-Mac https://downloader.cursor.sh/mac/installer/universal  
-Windows x64 https://downloader.cursor.sh/windows/nsis/x64  
-Linux x64 https://downloader.cursor.sh/linux/appImage/x64  
+Cursor AI Download for Mac
+- https://downloader.cursor.sh/mac/installer/universal
+  
+Cursor AI Download for Windows x64
+- https://downloader.cursor.sh/windows/nsis/x64
 
-> Deepseek models:  
+Cursor AI Download for Linux x64
+- https://downloader.cursor.sh/linux/appImage/x64  
+
+
+## Deepseek models supported
+
 > Deepseek R1 and Deepseek v3 are supported in 0.45 and 0.44.  
 > You can enable them in Settings > Models. We self-host these models in the US.
 
@@ -103,7 +115,7 @@ should work now.
 | 0.42.4 | - | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/mac/installer/universal) | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/windows/nsis/x64) | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/linux/appImage/x64) |
 | 0.42.3 | - | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/mac/installer/universal) | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/windows/nsis/x64) | [Link](https://downloader.cursor.sh/builds/230313mzl4w4u92/linux/appImage/x64) |
 
-
+## Star History
 
 [![Stargazers over time](https://starchart.cc/oslook/cursor-ai-downloads.svg)](https://starchart.cc/oslook/cursor-ai-downloads)
 
