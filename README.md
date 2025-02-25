@@ -39,6 +39,14 @@ Linux x64 https://downloader.cursor.sh/linux/appImage/x64
 - Agent compatibility check
 - Visual indicator to show loaded rules
 
+### Integrate Claude 3.7 Sonnet into Cursor 0.46.0
+try to add
+- claude-3.7-sonnet-thinking
+- claude-3-7-sonnet-20250219
+  
+should work now.
+
+
 ## Download Links History
 
 | Version | Date | Mac Installer | Windows Installer | Linux Installer |
