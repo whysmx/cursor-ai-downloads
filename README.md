@@ -72,11 +72,14 @@ List some key features and the versions they were introduced in for reference wh
 
 ## Latest Version Download Link 
 
-Official Download Link for the Latest Version from [Cursor AI's Website](https://www.cursor.com/downloads).
-
-The latest version (on 2025/02/26) is:
+Official Download Link for The latest version from [Cursor AI's Website](https://www.cursor.com/downloads) (on `2025/02/26`) is:
 - Mac 0.45.15
 - Windows 0.45.15
+- Linux AppImage 0.45.14
+
+Official Download Link for The latest version from `[Cursor AI IDE]'s [Check for Updates...]` (on `2025/02/26`) is:
+- Mac 0.46.5
+- Windows 0.46.5
 - Linux AppImage 0.45.14
 
 ## All Version Download Links
