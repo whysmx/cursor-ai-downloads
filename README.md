@@ -84,8 +84,9 @@ Official Download Link for The latest version from `[Cursor AI IDE]'s [Check for
 
 ## All Version Download Links
 
-> All links published by the Cursor team. no changes have been made.
-> Direct links for versions like 0.46.x are obtained from the automatic updates within Cursor AI's IDE. Earlier versions can be accessed through links provided on the official website.
+> All links published by the Cursor team. no changes have been made.  
+> Direct links for versions like 0.46.x are obtained from the automatic updates within Cursor AI's IDE.  
+> Older versions can be accessed through links provided on the official website.
 
 | Version | Date | Mac Installer | Windows Installer | Linux Installer |
 | --- | --- | --- | --- | --- |
