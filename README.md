@@ -26,11 +26,10 @@
 ## 📖 Table of Contents
 
 - [❓ What is Cursor?](#what-is-cursor)
-- [📋 Why list the download links?](#why-list-the-download-links)
+- [🔮 Why list the download links?](#why-list-the-download-links)
 - [🚀 Cursor Changelog](#cursor-changelog)
 - [🆕 Latest Version Download Link](#latest-version-download-link)
 - [⏬ All Versions Download Links](#all-version-download-links)
-- [⭐ This Project's Star History](#star-history)
 - [📜 License](#-license)
 - [☕ Support This Project](#support-this-project)
 
