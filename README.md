@@ -27,8 +27,8 @@
 
 - [❓ What is Cursor?](#what-is-cursor)
 - [🔮 Why list the download links?](#why-list-the-download-links)
+- [🆕 Cursor Latest Version (Updating...)](#cursor-latest-version)
 - [🚀 Cursor Changelog](#cursor-changelog)
-- [🆕 Latest Version Download Link](#latest-version-download-link)
 - [⏬ All Versions Download Links](#all-version-download-links)
 - [📜 License](#-license)
 - [☕ Support This Project](#support-this-project)
@@ -53,6 +53,19 @@ Access the newest preview version to try out upcoming features before they're of
    
 Use our official download links to access any older, stable version you prefer.
 
+## Cursor Latest Version
+
+Official Download Link for The latest version from `[Cursor AI IDE]'s [Check for Updates...]` (on `2025/02/26`) is:
+- Mac 0.46.6
+- Windows 0.46.6
+- Linux AppImage 0.45.14
+
+Official Download Link for The latest version from [Cursor AI's Website](https://www.cursor.com/downloads) (on `2025/02/26`) is:
+- Mac 0.45.15
+- Windows 0.45.15
+- Linux AppImage 0.45.14
+
+
 ## Cursor Changelog
 
 Please refer to the [Official Link](https://www.cursor.com/changelog)
@@ -68,20 +81,6 @@ List some key features and the versions they were introduced in for reference wh
 2. Integrate Claude 3.7 Sonnet (0.46.0 ~)
 > try to add `claude-3.7-sonnet-thinking` and `claude-3-7-sonnet-20250219` should work now.
 
-
-
-## Latest Version Download Link 
-
-Official Download Link for The latest version from [Cursor AI's Website](https://www.cursor.com/downloads) (on `2025/02/26`) is:
-- Mac 0.45.15
-- Windows 0.45.15
-- Linux AppImage 0.45.14
-
-Official Download Link for The latest version from `[Cursor AI IDE]'s [Check for Updates...]` (on `2025/02/26`) is:
-- Mac 0.46.5
-- Windows 0.46.5
-- Linux AppImage 0.45.14
-
 ## All Version Download Links
 
 > All links published by the Cursor team. no changes have been made.  
@@ -90,6 +89,7 @@ Official Download Link for The latest version from `[Cursor AI IDE]'s [Check for
 
 | Version | Date | Mac Installer | Windows Installer | Linux Installer |
 | --- | --- | --- | --- | --- |
+| 0.46.6 | 2025-02-26 | [darwin-universal](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/5ac4b6282478aa0f4d1bfc032412616523788843/darwin/universal/Cursor-darwin-universal.dmg) <br>[darwin-x64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/5ac4b6282478aa0f4d1bfc032412616523788843/darwin/x64/Cursor-darwin-x64.dmg)<br>[darwin-arm64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/5ac4b6282478aa0f4d1bfc032412616523788843/darwin/arm64/Cursor-darwin-arm64.dmg) | [win32-x64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/5ac4b6282478aa0f4d1bfc032412616523788843/win32/x64/user-setup/CursorUserSetup-x64-0.46.6.exe)<br>[win32-arm64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/5ac4b6282478aa0f4d1bfc032412616523788843/win32/arm64/user-setup/CursorUserSetup-arm64-0.46.6.exe) | Not Ready |
 | 0.46.5 | 2025-02-26 | [darwin-universal](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/9fa6e431b47f723d1bac24802102dd2fd8ea72b0/darwin/universal/Cursor-darwin-universal.dmg) <br>[darwin-x64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/9fa6e431b47f723d1bac24802102dd2fd8ea72b0/darwin/x64/Cursor-darwin-x64.dmg)<br>[darwin-arm64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/9fa6e431b47f723d1bac24802102dd2fd8ea72b0/darwin/arm64/Cursor-darwin-arm64.dmg) | [win32-x64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/9fa6e431b47f723d1bac24802102dd2fd8ea72b0/win32/x64/user-setup/CursorUserSetup-x64-0.46.5.exe)<br>[win32-arm64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/9fa6e431b47f723d1bac24802102dd2fd8ea72b0/win32/arm64/user-setup/CursorUserSetup-arm64-0.46.5.exe) | Not Ready |
 | 0.46.4 | 2025-02-25 | [darwin-universal](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/db71624816f6d52f6e54f47c37cdc7df23e22623/darwin/universal/Cursor-darwin-universal.dmg) <br>[darwin-x64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/db71624816f6d52f6e54f47c37cdc7df23e22623/darwin/x64/Cursor-darwin-x64.dmg)<br>[darwin-arm64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/db71624816f6d52f6e54f47c37cdc7df23e22623/darwin/arm64/Cursor-darwin-arm64.dmg) | [win32-x64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/db71624816f6d52f6e54f47c37cdc7df23e22623/win32/x64/user-setup/CursorUserSetup-x64-0.46.4.exe)<br>[win32-arm64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/db71624816f6d52f6e54f47c37cdc7df23e22623/win32/arm64/user-setup/CursorUserSetup-arm64-0.46.4.exe) | Not Ready |
 | 0.46.3 | 2025-02-25 | [darwin-universal](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/darwin/universal/Cursor-darwin-universal.dmg) <br>[darwin-x64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/darwin/x64/Cursor-darwin-x64.dmg)<br>[darwin-arm64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/darwin/arm64/Cursor-darwin-arm64.dmg) | [win32-x64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/win32/x64/user-setup/CursorUserSetup-x64-0.46.3.exe)<br>[win32-arm64](https://anysphere-binaries.s3.us-east-1.amazonaws.com/production/fce3511bab261b4c986797f3e1e40e7621bbd012/win32/arm64/user-setup/CursorUserSetup-arm64-0.46.3.exe) | Not Ready |
