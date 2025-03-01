@@ -1,4 +1,3 @@
-import axios from 'axios';
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
@@ -6,6 +5,15 @@ import { fileURLToPath } from 'url';
 // Get dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// Define types for Bun's fetch if needed
+declare global {
+  interface Response {
+    ok: boolean;
+    status: number;
+    json(): Promise<any>;
+  }
+}
 
 interface PlatformInfo {
   platforms: string[];
@@ -26,6 +34,10 @@ interface ResultMap {
   [os: string]: {
     [platform: string]: VersionInfo;
   };
+}
+
+interface DownloadResponse {
+  downloadUrl: string;
 }
 
 const PLATFORMS: PlatformMap = {
@@ -74,8 +86,12 @@ function formatDate(date: Date): string {
  */
 async function fetchLatestDownloadUrl(platform: string): Promise<string | null> {
   try {
-    const response = await axios.get(`https://www.cursor.com/api/download?platform=${platform}&releaseTrack=latest`);
-    return response.data.downloadUrl;
+    const response = await fetch(`https://www.cursor.com/api/download?platform=${platform}&releaseTrack=latest`);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json() as DownloadResponse;
+    return data.downloadUrl;
   } catch (error) {
     console.error(`Error fetching download URL for platform ${platform}:`, error instanceof Error ? error.message : 'Unknown error');
     return null;
