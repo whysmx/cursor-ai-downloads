@@ -40,6 +40,19 @@ interface DownloadResponse {
   downloadUrl: string;
 }
 
+// Interface for version history JSON
+interface VersionHistoryEntry {
+  version: string;
+  date: string;
+  platforms: {
+    [platform: string]: string; // platform -> download URL
+  };
+}
+
+interface VersionHistory {
+  versions: VersionHistoryEntry[];
+}
+
 const PLATFORMS: PlatformMap = {
   windows: {
     platforms: ['win32-x64', 'win32-arm64'],
@@ -99,6 +112,39 @@ async function fetchLatestDownloadUrl(platform: string): Promise<string | null> 
 }
 
 /**
+ * Read version history from JSON file
+ */
+function readVersionHistory(): VersionHistory {
+  const historyPath = path.join(process.cwd(), 'version-history.json');
+  if (fs.existsSync(historyPath)) {
+    try {
+      const jsonData = fs.readFileSync(historyPath, 'utf8');
+      return JSON.parse(jsonData) as VersionHistory;
+    } catch (error) {
+      console.error('Error reading version history:', error instanceof Error ? error.message : 'Unknown error');
+      return { versions: [] };
+    }
+  } else {
+    console.log('version-history.json not found, creating a new file');
+    return { versions: [] };
+  }
+}
+
+/**
+ * Save version history to JSON file
+ */
+function saveVersionHistory(history: VersionHistory): void {
+  const historyPath = path.join(process.cwd(), 'version-history.json');
+  try {
+    const jsonData = JSON.stringify(history, null, 2);
+    fs.writeFileSync(historyPath, jsonData, 'utf8');
+    console.log('Version history saved to version-history.json');
+  } catch (error) {
+    console.error('Error saving version history:', error instanceof Error ? error.message : 'Unknown error');
+  }
+}
+
+/**
  * Update the README.md file with latest Cursor links
  */
 async function updateReadme(): Promise<void> {
@@ -138,6 +184,8 @@ async function updateReadme(): Promise<void> {
   const websiteUpdateRegex = /(Official Download Link for The latest version from \[Cursor AI's Website\]\(https:\/\/www\.cursor\.com\/downloads\) \(on `)([^`]+)(`\) is:)/;
   readmeContent = readmeContent.replace(websiteUpdateRegex, `$1${currentDate}$3`);
   
+  // We're no longer updating the version numbers in the "Latest Version" section
+  // as requested - only updating the dates and version history table
   
   // Check if the latest version already exists in the table
   const versionRowRegex = new RegExp(`\\| ${latestVersion} \\|`);
@@ -184,11 +232,70 @@ async function updateReadme(): Promise<void> {
     
     // Insert the new row after the table header
     readmeContent = readmeContent.replace(tableStartRegex, `$&${newRow}`);
+    
+    // Update version history JSON
+    updateVersionHistory(latestVersion, currentDate, results);
   }
   
   // Save the updated README
   fs.writeFileSync(readmePath, readmeContent);
   console.log(`README.md updated with Cursor version ${latestVersion}`);
+}
+
+/**
+ * Update version history JSON with new version information
+ */
+function updateVersionHistory(version: string, date: string, results: ResultMap): void {
+  // Read existing version history
+  const history = readVersionHistory();
+  
+  // Check if this version already exists
+  const existingVersionIndex = history.versions.findIndex(entry => entry.version === version);
+  if (existingVersionIndex !== -1) {
+    console.log(`Version ${version} already exists in version-history.json, skipping.`);
+    return;
+  }
+  
+  // Prepare new entry
+  const platforms: { [platform: string]: string } = {};
+  
+  // Add Mac platforms
+  if (results.mac) {
+    for (const [platform, info] of Object.entries(results.mac)) {
+      platforms[platform] = info.url;
+    }
+  }
+  
+  // Add Windows platforms
+  if (results.windows) {
+    for (const [platform, info] of Object.entries(results.windows)) {
+      platforms[platform] = info.url;
+    }
+  }
+  
+  // Add Linux platforms
+  if (results.linux) {
+    for (const [platform, info] of Object.entries(results.linux)) {
+      platforms[platform] = info.url;
+    }
+  }
+  
+  // Create the new entry
+  const newEntry: VersionHistoryEntry = {
+    version,
+    date,
+    platforms
+  };
+  
+  // Add to history and sort by version (newest first)
+  history.versions.push(newEntry);
+  history.versions.sort((a, b) => {
+    return b.version.localeCompare(a.version, undefined, { numeric: true });
+  });
+  
+  // Save updated history
+  saveVersionHistory(history);
+  console.log(`Added version ${version} to version-history.json`);
 }
 
 // Run the update
