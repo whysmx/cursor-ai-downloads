@@ -55,12 +55,12 @@ Use our official download links to access any older, stable version you prefer.
 
 ## Cursor Latest Version
 
-Official Download Link for The latest version from `[Cursor AI IDE]'s [Check for Updates...]` (on `2025-03-04`) is:
+Official Download Link for The latest version from `[Cursor AI IDE]'s [Check for Updates...]` (on `2025-03-05`) is:
 - Mac 0.46.7
 - Windows 0.46.7
 - Linux AppImage 0.45.14
 
-Official Download Link for The latest version from [Cursor AI's Website](https://www.cursor.com/downloads) (on `2025-03-04`) is:
+Official Download Link for The latest version from [Cursor AI's Website](https://www.cursor.com/downloads) (on `2025-03-05`) is:
 - Mac 0.45.15
 - Windows 0.45.15
 - Linux AppImage 0.45.14
