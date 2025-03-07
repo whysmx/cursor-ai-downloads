@@ -65,8 +65,8 @@ const PLATFORMS: PlatformMap = {
     section: 'Mac Installer'
   },
   linux: {
-    platforms: ['linux-x64'],
-    readableNames: ['linux-x64'],
+    platforms: ['linux-x64', 'linux-arm64'],
+    readableNames: ['linux-x64', 'linux-arm64'],
     section: 'Linux Installer'
   }
 };
@@ -229,8 +229,7 @@ async function updateReadme(): Promise<boolean> {
   
   console.log(`Latest version detected: ${latestVersion}`);
   
-  // First, check if this version already exists in our JSON history
-  // Read existing version history
+  // Use version-history.json as the single source of truth for version checking
   const history = readVersionHistory();
   
   // Check if this version already exists in the version history
@@ -240,7 +239,10 @@ async function updateReadme(): Promise<boolean> {
     return false;
   }
   
-  // Now update the README with the new information
+  // New version found, update both version-history.json and README.md
+  console.log(`Adding new version ${latestVersion} to both version-history.json and README.md`);
+  
+  // Read README
   const readmePath = path.join(process.cwd(), 'README.md');
   if (!fs.existsSync(readmePath)) {
     console.error('README.md file not found');
@@ -249,95 +251,7 @@ async function updateReadme(): Promise<boolean> {
   
   let readmeContent = fs.readFileSync(readmePath, 'utf8');
   
-  // Check if this version already exists in README.md file
-  const versionRegex = new RegExp(`\\| ${latestVersion} \\| `);
-  if (versionRegex.test(readmeContent)) {
-    console.log(`Version ${latestVersion} already exists in README.md, only updating version-history.json`);
-    
-    // Even though version exists in README, make sure it's in the JSON file too
-    // If we reached here, we know it's not in the JSON yet
-    // Prepare new entry for version history from existing README data
-    
-    // Extract version info from README
-    const sectionRegex = new RegExp(`\\| ${latestVersion} \\| (\\d{4}-\\d{2}-\\d{2}) \\| (.*?) \\| (.*?) \\| (.*?) \\|`);
-    const sectionMatch = readmeContent.match(sectionRegex);
-    
-    if (sectionMatch) {
-      const versionDate = sectionMatch[1];
-      const macSection = sectionMatch[2];
-      const windowsSection = sectionMatch[3];
-      const linuxSection = sectionMatch[4];
-      
-      const platforms: { [platform: string]: string } = {};
-      
-      // Parse Mac links
-      if (macSection) {
-        const macLinks = macSection.match(/\[([^\]]+)\]\(([^)]+)\)/g);
-        if (macLinks) {
-          macLinks.forEach(link => {
-            const parts = link.match(/\[([^\]]+)\]\(([^)]+)\)/);
-            if (parts && parts[1] && parts[2]) {
-              platforms[parts[1]] = parts[2];
-            }
-          });
-        }
-      }
-      
-      // Parse Windows links
-      if (windowsSection) {
-        const winLinks = windowsSection.match(/\[([^\]]+)\]\(([^)]+)\)/g);
-        if (winLinks) {
-          winLinks.forEach(link => {
-            const parts = link.match(/\[([^\]]+)\]\(([^)]+)\)/);
-            if (parts && parts[1] && parts[2]) {
-              platforms[parts[1]] = parts[2];
-            }
-          });
-        }
-      }
-      
-      // Parse Linux links
-      if (linuxSection && linuxSection !== 'Not Ready') {
-        const linuxLinks = linuxSection.match(/\[([^\]]+)\]\(([^)]+)\)/g);
-        if (linuxLinks) {
-          linuxLinks.forEach(link => {
-            const parts = link.match(/\[([^\]]+)\]\(([^)]+)\)/);
-            if (parts && parts[1] && parts[2]) {
-              platforms[parts[1]] = parts[2];
-            }
-          });
-        }
-      }
-      
-      // Create new entry from README data
-      const newEntry: VersionHistoryEntry = {
-        version: latestVersion,
-        date: versionDate,
-        platforms
-      };
-      
-      // Add to history and sort
-      history.versions.push(newEntry);
-      history.versions.sort((a, b) => {
-        return b.version.localeCompare(a.version, undefined, { numeric: true });
-      });
-      
-      // Save the updated history
-      try {
-        saveVersionHistory(history);
-        console.log(`Added version ${latestVersion} from README.md to version-history.json`);
-      } catch (error) {
-        console.error('Error saving version history:', error instanceof Error ? error.message : 'Unknown error');
-      }
-    }
-    
-    return false;
-  }
-  
-  // If we reached here, we have a new version to add to both README and JSON
-  console.log(`Adding new version ${latestVersion} to both README.md and version-history.json`);
-  
-  // Prepare new entry for version history
+  // Create a new platforms object for the history entry
   const platforms: { [platform: string]: string } = {};
   
   // Add Mac platforms
@@ -404,8 +318,7 @@ async function updateReadme(): Promise<boolean> {
   // Generate Mac links section
   let macLinks = '';
   if (results.mac) {
-    const macPlatforms = ['darwin-universal', 'darwin-x64', 'darwin-arm64'];
-    const macUrls = macPlatforms.map(platform => {
+    const macUrls = PLATFORMS.mac.platforms.map(platform => {
       if (results.mac[platform] && results.mac[platform].url) {
         return `[${platform}](${results.mac[platform].url})`;
       }
@@ -418,8 +331,7 @@ async function updateReadme(): Promise<boolean> {
   // Generate Windows links section
   let windowsLinks = '';
   if (results.windows) {
-    const winPlatforms = ['win32-x64', 'win32-arm64'];
-    const winUrls = winPlatforms.map(platform => {
+    const winUrls = PLATFORMS.windows.platforms.map(platform => {
       if (results.windows[platform] && results.windows[platform].url) {
         return `[${platform}](${results.windows[platform].url})`;
       }
@@ -431,8 +343,17 @@ async function updateReadme(): Promise<boolean> {
   
   // Generate Linux link
   let linuxLinks = 'Not Ready';
-  if (results.linux && results.linux['linux-x64'] && results.linux['linux-x64'].url) {
-    linuxLinks = `[linux-x64](${results.linux['linux-x64'].url})`;
+  if (results.linux) {
+    const linuxUrls = PLATFORMS.linux.platforms.map(platform => {
+      if (results.linux[platform] && results.linux[platform].url) {
+        return `[${platform}](${results.linux[platform].url})`;
+      }
+      return null;
+    }).filter(Boolean);
+    
+    if (linuxUrls.length > 0) {
+      linuxLinks = linuxUrls.join('<br>');
+    }
   }
   
   // New table row
