@@ -21,6 +21,8 @@
   <img alt="License" src="https://img.shields.io/badge/License-MIT-blueviolet">
 </p>
 
+⭐️ Your star shines on us. Star us on GitHub!
+
 ---
 
 ## 📖 Table of Contents
