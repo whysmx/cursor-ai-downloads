@@ -8,9 +8,9 @@
   <img src="https://mintlify.s3-us-west-1.amazonaws.com/cursor/images/logo/app-logo.svg" alt="Cursor Icon" width="100"/>
 </p>
 
-<h1 align="center">Cursor AI Version Download Links</h1>
+<h1 align="center">Cursor AI's Official Download Links</h1>
 
-<p align="center"><strong>The most comprehensive download link for Cursor versions on GitHub, making it easy for you to update and choose any version. 🚀</strong></p>
+<p align="center"><strong>The most comprehensive official download link for Cursor AI versions on GitHub, making it easy for you to update and choose any version. 🚀</strong></p>
 
 
 <p align="center">
