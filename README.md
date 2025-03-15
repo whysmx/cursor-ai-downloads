@@ -29,7 +29,6 @@
 
 - [❓ What is Cursor?](#what-is-cursor)
 - [🔮 Why list the download links?](#why-list-the-download-links)
-- [🆕 Latest Version for Cursor (Updating...)](#cursor-latest-version)
 - [🚀 Cursor AI's Changelog](#cursor-changelog)
 - [⏬ Download Links for All Versions](#all-version-download-links)
 - [📜 License](#-license)
@@ -53,12 +52,7 @@ Access the newest preview version to try out upcoming features before they're of
   
 2. Who Prefer Stable Versions
    
-Use our official download links to access any older, stable version you prefer.
-
-## Cursor Latest Version
-
-Official Download Link for The latest version from `[Cursor AI IDE]'s [Check for Updates...]` (on `2025-03-13`)
-Official Download Link for The latest version from [Cursor AI's Website](https://www.cursor.com/downloads) (on `2025-03-13`)
+Use the official download links to access any older, stable version you prefer.
 
 ## Cursor Changelog
 
