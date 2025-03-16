@@ -714,6 +714,7 @@
         "linux-x64": "https://downloader.cursor.sh/builds/241011i66p9fuvm.exe/linux/appImage/x64",
         "linux-arm64": "https://downloader.cursor.sh/builds/241011i66p9fuvm.exe/linux/appImage/arm64"
       }
+    },
     {
       "version": "0.42.0",
       "date": "2024-10-09",
