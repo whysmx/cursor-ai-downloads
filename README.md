@@ -23,6 +23,8 @@
 
 ⭐️ Your star shines on us. Star us on GitHub!
 
+🔍 head over to [Cursor Download Hub](https://cursor.uuid.site) perform a quick search.
+
 ---
 
 ## 📖 Table of Contents
