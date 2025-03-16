@@ -23,8 +23,9 @@
 
 ⭐️ Your star shines on us. Star us on GitHub!
 
-🔍 head over to [Cursor Download Hub](https://cursor.uuid.site) perform a quick search.
+🔍 head over to [>> Cursor Download Hub <<](https://cursor.uuid.site) perform a quick search version history.
 
+<a href="https://cursor.uuid.site" target="_blank"><img alt="Cursor Download Hub" src="https://img.shields.io/badge/Cursor%20Download%20Hub-FFDA33?logo=searxng&style=for-the-badge&logoColor=red"></a>
 ---
 
 ## 📖 Table of Contents
