@@ -1,0 +1,5 @@
+{
+  "root": "web/public",
+  "clean_urls": true,
+  "error_page": "html/index.html"
+} 
