@@ -1,17 +1,16 @@
 {
-  "name": "cursor-downloads-tracker",
+  "name": "cursor-ai-downloads-root",
   "version": "1.0.0",
-  "devDependencies": {
-    "@types/node": "^18.18.0",
-    "typescript": "^5.2.2",
-    "bun-types": "latest"
-  },
-  "description": "Automatically tracks and updates Cursor download links",
+  "private": true,
+  "workspaces": [
+    "web"
+  ],
   "scripts": {
-    "build": "tsc",
-    "start": "bun src/update-cursor-links.ts",
-    "update": "bun src/update-cursor-links.ts",
-    "test": "echo \"No tests specified\" && exit 0"
+    "build": "cd web && npm run build",
+    "start": "cd web && npm start",
+    "dev": "cd web && npm run dev"
   },
-  "type": "module"
+  "dependencies": {
+    "next": "12.3.1"
+  }
 }
