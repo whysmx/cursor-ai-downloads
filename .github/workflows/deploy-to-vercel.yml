@@ -1,18 +1,16 @@
 name: Deploy to Vercel
 
 on:
-  # 当update-cursor-links.yml工作流完成时触发
-  workflow_run:
-    workflows: ["Update Cursor Download Links"]
-    types:
-      - completed
+  # 当version-history.json文件更新时触发
+  push:
+    paths:
+      - 'version-history.json'
   # 允许手动触发
   workflow_dispatch:
 
 jobs:
   check-and-deploy:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -42,7 +40,8 @@ jobs:
       - name: Copy data to web project
         if: steps.check_changes.outputs.found_changes == 'true'
         run: |
-          node src/update-web-data.js
+          mkdir -p web/public/data
+          cp version-history.json web/public/data/
 
       # 部署到Vercel
       - name: Deploy to Vercel
@@ -52,5 +51,5 @@ jobs:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-          working-directory: ./
+          working-directory: ./web  # 指定web目录为工作目录
           vercel-args: '--prod' 
