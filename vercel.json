@@ -1,8 +1,5 @@
 {
-  "buildCommand": null,
   "outputDirectory": "web/public",
-  "installCommand": null,
-  "framework": null,
   "rewrites": [
     { "source": "/(.*)", "destination": "/html/index.html" }
   ]
