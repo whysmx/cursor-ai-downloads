@@ -5,9 +5,14 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  // 设置为静态HTML导出模式
-  output: 'export',
-  // 禁用SSR功能
+  // 为Next.js 12版本配置正确的静态导出
+  exportPathMap: async function() {
+    return {
+      '/': { page: '/' },
+      '/404': { page: '/404' },
+      '/500': { page: '/500' }
+    }
+  },
   trailingSlash: true
 }
 
