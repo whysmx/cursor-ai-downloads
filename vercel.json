@@ -4,6 +4,6 @@
   "installCommand": null,
   "framework": null,
   "rewrites": [
-    { "source": "/", "destination": "/html/index.html" }
+    { "source": "/(.*)", "destination": "/html/index.html" }
   ]
 } 
